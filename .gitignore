@@ -3,3 +3,9 @@
 ################################################################################
 
 /Factories.SimpleFactory/obj
+/Factories.SimpleFactory/bin/Debug/netcoreapp2.2
+/Factories.Problem/bin/Debug/netcoreapp2.2
+/Factories.Problem/obj
+/Factories.FactoryMethod/bin/Debug/netcoreapp2.2
+/Factories.FactoryMethod/obj
+/.vs/Factories/v16
