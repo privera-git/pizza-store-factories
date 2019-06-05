@@ -34,7 +34,7 @@ namespace Factories.AbstractFactory.Chicago
 
         public IVeggies[] CreateVeggies()
         {
-            return new IVeggies[] { new Garlic(), new Onion(), new Mushroom(), new RedPepper() };
+            return new IVeggies[] { new BlackOlives(), new Spinach(), new Eggplant() };
         }
     }
 }
