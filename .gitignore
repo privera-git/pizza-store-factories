@@ -9,3 +9,6 @@
 /Factories.FactoryMethod/bin/Debug/netcoreapp2.2
 /Factories.FactoryMethod/obj
 /.vs/Factories/v16
+/.vs/Factories/DesignTimeBuild/.dtbcache
+/Factories.AbstractFactory/bin/Debug/netcoreapp2.2
+/Factories.AbstractFactory/obj

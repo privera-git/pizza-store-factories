@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factories.Problem", "Factories.Problem\Factories.Problem.csproj", "{248F7376-A80F-4720-BF6E-160EC056632E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factories.Problem", "Factories.Problem\Factories.Problem.csproj", "{248F7376-A80F-4720-BF6E-160EC056632E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factories.SimpleFactory", "Factories.SimpleFactory\Factories.SimpleFactory.csproj", "{6C6C221E-9B4C-4890-9764-75F877104E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factories.SimpleFactory", "Factories.SimpleFactory\Factories.SimpleFactory.csproj", "{6C6C221E-9B4C-4890-9764-75F877104E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factories.FactoryMethod", "Factories.FactoryMethod\Factories.FactoryMethod.csproj", "{1FC8549A-840B-4B89-BAE5-831B09DE2E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factories.FactoryMethod", "Factories.FactoryMethod\Factories.FactoryMethod.csproj", "{1FC8549A-840B-4B89-BAE5-831B09DE2E55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Problem", "1 Problem", "{D61A808B-3599-47E7-849B-3E01E26B55F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Factory Method", "3 Factory Method", "{7907D8B8-76EA-4989-AF57-8BDC6C06CE8B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Simple Factory", "2 Simple Factory", "{CC7E2843-759B-4631-9DF7-9B1698EEC788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Abstract Factory", "4 Abstract Factory", "{84F41A21-79C2-4D9D-B1D4-98271BE55C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factories.AbstractFactory", "Factories.AbstractFactory\Factories.AbstractFactory.csproj", "{D9A1A92E-BAF7-4FC5-A1D1-59346E7AF3C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{1FC8549A-840B-4B89-BAE5-831B09DE2E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC8549A-840B-4B89-BAE5-831B09DE2E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC8549A-840B-4B89-BAE5-831B09DE2E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A1A92E-BAF7-4FC5-A1D1-59346E7AF3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A1A92E-BAF7-4FC5-A1D1-59346E7AF3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A1A92E-BAF7-4FC5-A1D1-59346E7AF3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A1A92E-BAF7-4FC5-A1D1-59346E7AF3C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{248F7376-A80F-4720-BF6E-160EC056632E} = {D61A808B-3599-47E7-849B-3E01E26B55F7}
 		{6C6C221E-9B4C-4890-9764-75F877104E04} = {CC7E2843-759B-4631-9DF7-9B1698EEC788}
 		{1FC8549A-840B-4B89-BAE5-831B09DE2E55} = {7907D8B8-76EA-4989-AF57-8BDC6C06CE8B}
+		{D9A1A92E-BAF7-4FC5-A1D1-59346E7AF3C1} = {84F41A21-79C2-4D9D-B1D4-98271BE55C78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B0DAFA2-8CD8-4E14-9FBF-369C5A38637D}
